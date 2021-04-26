@@ -10,10 +10,18 @@
  "body": "string",
  "post": "Post"
  }
+ ,"Grade": {
+  "grade": "int"
+  ,"group": "int"
+ }
  ,"Student": {
   "name": "string"
   ,"surname": "string"
-  ,"grade": "int"
+  ,"grade": "Grade"
   ,"createdAt": "date"
+ }
+ ,"Classroom": {
+  "students": "Student[]"
+  ,"grade": "Grade"
  }
 }
